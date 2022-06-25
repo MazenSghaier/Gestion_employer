@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Creation</class>
+ <widget class="QMainWindow" name="Creation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>825</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel{
+	font: 11pt &quot;Century Gothic&quot;;
+	color: rgb(0, 120, 180);
+}
+QLineEdit{
+background: transparent;
+	border : none;
+	color: rgb(0, 120, 180);
+	border-bottom: 1px solid  rgb(0, 120, 180);
+font: 11pt &quot;Century Gothic&quot;;}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>10</y>
+      <width>551</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 12pt &quot;Century Gothic&quot;;
+background-color: rgb(222, 232, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="l5">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>260</y>
+       <width>49</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="l7">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>310</y>
+       <width>49</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>20</y>
+       <width>391</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;Century Schoolbook&quot;;
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>         Bienvenue dans notre application</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="l1">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>70</y>
+       <width>49</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_cin">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>250</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+	border : none;
+	color:rgb(22, 204, 137);
+	border-bottom: 1px solid  rgb(0, 120, 180);
+font: 11pt &quot;Century Gothic&quot;;</string>
+     </property>
+     <property name="placeholderText">
+      <string>CIN</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ll">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>70</y>
+       <width>161</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+	border : none;
+	color:rgb(22, 204, 137);
+	border-bottom: 1px solid  rgb(0, 120, 180);
+font: 11pt &quot;Century Gothic&quot;;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Nom d'utilisateur</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_21">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>70</y>
+       <width>151</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(22, 204, 137)</string>
+     </property>
+     <property name="text">
+      <string>Nom d'utilisateur  :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>370</y>
+       <width>271</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Donner le nombre des employers  :  </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="l2">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>100</y>
+       <width>49</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_mot">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>100</y>
+       <width>161</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+	border : none;
+	color:rgb(22, 204, 137);
+	border-bottom: 1px solid  rgb(0, 120, 180);
+font: 11pt &quot;Century Gothic&quot;;</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>Mot de passe</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>150</y>
+       <width>321</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>            Donner le directeur de l'institution  :</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_employer">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>410</y>
+       <width>113</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+	border : none;
+	color:rgb(22, 204, 137);
+	border-bottom: 1px solid  rgb(0, 120, 180);
+font: 11pt &quot;Century Gothic&quot;;</string>
+     </property>
+     <property name="placeholderText">
+      <string>0-100</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>409</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(22, 204, 137)</string>
+     </property>
+     <property name="text">
+      <string>Nombre des employer  : </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>490</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 13pt &quot;Century Gothic&quot;;
+color:white;
+background-color: rgb(22, 204, 137);
+;
+border-radius:10px;
+	</string>
+     </property>
+     <property name="text">
+      <string>Sign in</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="l8">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>410</y>
+       <width>49</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>220</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Century Gothic&quot;;
+color:rgb(22, 204, 137)</string>
+     </property>
+     <property name="text">
+      <string>Prenom  :  </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>260</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;Century Gothic&quot;;
+color:rgb(22, 204, 137)</string>
+     </property>
+     <property name="text">
+      <string>CIN    : </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_22">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>100</y>
+       <width>131</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(22, 204, 137)</string>
+     </property>
+     <property name="text">
+      <string>Mot de passe  :</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_sal">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>310</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+	border : none;
+	color:rgb(22, 204, 137);
+	border-bottom: 1px solid  rgb(0, 120, 180);
+font: 11pt &quot;Century Gothic&quot;;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Salaire</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="l4">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>200</y>
+       <width>49</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>290</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(22, 204, 137)</string>
+     </property>
+     <property name="text">
+      <string>Age   : </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>320</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 12pt &quot;Century Gothic&quot;;
+color:rgb(22, 204, 137)</string>
+     </property>
+     <property name="text">
+      <string>Salaire  : </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>190</y>
+       <width>61</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(22, 204, 137);
+font: 12pt &quot;Century Gothic&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Nom     :</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_age">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>280</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+	border : none;
+	color:rgb(22, 204, 137);
+	border-bottom: 1px solid  rgb(0, 120, 180);
+font: 11pt &quot;Century Gothic&quot;;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Age</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>230</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_prenom">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>220</y>
+       <width>111</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+	border : none;
+	color:rgb(22, 204, 137);
+	border-bottom: 1px solid  rgb(0, 120, 180);
+font: 11pt &quot;Century Gothic&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>Prenom</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="l6">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>280</y>
+       <width>49</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="l3">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>190</y>
+       <width>49</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_nom">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>190</y>
+       <width>113</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+	border : none;
+	color:rgb(22, 204, 137);
+	border-bottom: 1px solid  rgb(0, 120, 180);
+font: 11pt &quot;Century Gothic&quot;;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Nom</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>190</y>
+       <width>121</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>images/signup-avatar.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>831</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/signup.png</pixmap>
+    </property>
+   </widget>
+   <zorder>label_7</zorder>
+   <zorder>frame</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>825</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

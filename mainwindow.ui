@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/main.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCreation">
+    <property name="title">
+     <string>  Main</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionCree_une_institution"/>
+    <addaction name="separator"/>
+    <addaction name="actionLog_in"/>
+   </widget>
+   <widget class="QMenu" name="menuAjoute_un_employer">
+    <property name="title">
+     <string>Ajoute un employer</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionAjouter_un_Agent_de_laboratoire"/>
+    <addaction name="separator"/>
+    <addaction name="actionAjouter_un_Ouvrier"/>
+    <addaction name="separator"/>
+    <addaction name="actionAjouter_un_Responsable"/>
+    <addaction name="separator"/>
+    <addaction name="actionAjouter_un_Technicien"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuSupprime_un_employer">
+    <property name="title">
+     <string>Modifier \ Supprime un employer</string>
+    </property>
+    <addaction name="actionModifier_par_Nom_Prenom_CIN"/>
+    <addaction name="separator"/>
+    <addaction name="actionSupprimer_par_Nom"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuRecherche_un_employer">
+    <property name="title">
+     <string>Recherche un employer</string>
+    </property>
+    <addaction name="actionRechercher_par_le_nom"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuAffichage">
+    <property name="title">
+     <string>Affichage</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionAffiche_la_liste_des_employer"/>
+   </widget>
+   <widget class="QMenu" name="menuCong_e">
+    <property name="title">
+     <string>Congée</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionPrendre_un_cong_e"/>
+    <addaction name="separator"/>
+    <addaction name="actionListe_des_employes_en_cong_e"/>
+   </widget>
+   <widget class="QMenu" name="menuEnregistrement">
+    <property name="title">
+     <string>Enregistrement</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionEnregistr_e"/>
+   </widget>
+   <addaction name="menuCreation"/>
+   <addaction name="menuAjoute_un_employer"/>
+   <addaction name="menuSupprime_un_employer"/>
+   <addaction name="menuAffichage"/>
+   <addaction name="menuRecherche_un_employer"/>
+   <addaction name="menuCong_e"/>
+   <addaction name="menuEnregistrement"/>
+  </widget>
+  <action name="actionAjouter_un_Agent_de_laboratoire">
+   <property name="text">
+    <string>Ajouter un Agent de laboratoire</string>
+   </property>
+  </action>
+  <action name="actionAjouter_un_Ouvrier">
+   <property name="text">
+    <string>Ajouter un Ouvrier</string>
+   </property>
+  </action>
+  <action name="actionAjouter_un_Responsable">
+   <property name="text">
+    <string>Ajouter un Responsable</string>
+   </property>
+  </action>
+  <action name="actionAjouter_un_Technicien">
+   <property name="text">
+    <string>Ajouter un Technicien </string>
+   </property>
+  </action>
+  <action name="actionRechercher_par_le_nom">
+   <property name="text">
+    <string>Recherche par Nom/Prenom/CIN</string>
+   </property>
+  </action>
+  <action name="actionRechercher_par_le_prenom">
+   <property name="text">
+    <string>Rechercher par le prenom</string>
+   </property>
+  </action>
+  <action name="actionRechercher_par_le_CIN">
+   <property name="text">
+    <string>Rechercher par le CIN</string>
+   </property>
+  </action>
+  <action name="actionCree_une_institution">
+   <property name="text">
+    <string>Sign up</string>
+   </property>
+  </action>
+  <action name="actionSupprimer_par_Nom">
+   <property name="text">
+    <string>Supprimer par CIN</string>
+   </property>
+  </action>
+  <action name="actionModifier_par_Nom_Prenom_CIN">
+   <property name="text">
+    <string>Modifier par  Nom \ Prenom \ CIN</string>
+   </property>
+  </action>
+  <action name="actionLog_in">
+   <property name="text">
+    <string>Log in</string>
+   </property>
+  </action>
+  <action name="actionAffiche_la_liste_des_employer">
+   <property name="text">
+    <string>Affiche la liste des employer</string>
+   </property>
+  </action>
+  <action name="actionPrendre_un_cong_e">
+   <property name="text">
+    <string>Prendre un congée</string>
+   </property>
+  </action>
+  <action name="actionListe_des_employes_en_cong_e">
+   <property name="text">
+    <string>Liste des employes en congée</string>
+   </property>
+  </action>
+  <action name="actionEnregistr_e">
+   <property name="text">
+    <string>Enregistrée</string>
+   </property>
+  </action>
+  <action name="actionhaha">
+   <property name="text">
+    <string>haha</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
